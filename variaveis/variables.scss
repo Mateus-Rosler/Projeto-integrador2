@@ -1,0 +1,8 @@
+$header-title-font-size: 25px;
+$transition-title: 75px;
+$transition-subtitle: 27px;
+
+@mixin page-icon-size() {
+    width: 68px;
+    height: 68px;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url(/variaveis/variables.scss);
+$header-title-font-size: 25px;
+$transition-title: 55px;
+$transition-subtitle: 27px;
+
+@mixin page-icon-size() {
+  width: 68px;
+  height: 68px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Share Tech", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  
+  & a {
+    border-left: white 1px solid;
+
+    & :hover {
+      cursor: pointer;
+    }
+  }
+
+  & table {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 6;
+
+    & button {
+      font-size: $header-title-font-size;
+      background: none;
+      border: none;
+      padding: 0px 85px 0px 85px;
+    }
+  }
+
+  & td {
+    width: 20vw;
+    font-size: $header-title-font-size;
+  }
+
+  & img {
+    @include page-icon-size();
+    margin: 25px 15px 20px 15px;
+  }
+
+  & #imgH {
+    display: flex;
+    align-items: center;
+    font-size: $header-title-font-size;
+    border: none;
+    margin-top: 7px;
+  }
+  article{
+
+
+    & #SBV{
+      margin-top: 50px;
+    }
+    & img{
+      width: 100vw;
+      height: 65vh;
+      margin: 0;
+      padding: 0;
+
+    }
+    & .img{
+      width: 100vw;
+      height: 80%;
+      margin-top: 55px;
+    }
+    & h1{
+      font-size: $transition-title;
+    }
+    & p{
+      font-size: $transition-subtitle;
+    }
+  }
+      & .final{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        margin-top: 20px;
+      }
+      & footer{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        background-color: #1b1b1b;
+        & div{
+          display: flex;
+          justify-content: space-between;
+          width: 90vw;
+        & h1{
+          font-size: $header-title-font-size;
+        }
+        & button{
+          background: none;
+          border: none;
+          border-left: white 1px solid ;
+          font-size: $header-title-font-size;
+          padding-left: 10px;
+        }
+      }}
+}

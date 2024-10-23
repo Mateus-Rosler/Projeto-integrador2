@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url(/variaveis/variables.scss);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Share Tech", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+body main {
+  background-image: url(/img/Binarios.png);
+}
+body main a {
+  border-left: white 1px solid;
+}
+body main a :hover {
+  cursor: pointer;
+}
+body main table {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 6;
+}
+body main table button {
+  font-size: 25px;
+  background: none;
+  border: none;
+  padding: 0px 85px 0px 85px;
+}
+body main td {
+  width: 20vw;
+  font-size: 25px;
+}
+body main img {
+  width: 68px;
+  height: 68px;
+  margin: 25px 15px 20px 15px;
+}
+body main #imgH {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  border: none;
+}
+body h1 {
+  font-size: 60px;
+  margin-left: 75px;
+}
+body article {
+  margin-left: 75px;
+  margin-top: 75px;
+  height: 30vh;
+  width: 40vw;
+  display: flex;
+  font-size: 42px;
+  align-items: center;
+}
+body .transition {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  margin-top: 125x;
+}
+body #Boole {
+  width: 40vw;
+  height: 30vh;
+}
+body #boole {
+  background-image: url(/img/Boole.svg);
+  width: 100vw;
+  height: 80vh;
+}
+body #eniac {
+  width: 40vw;
+  height: 30vw;
+}
+body #eniac #Eniac {
+  background-image: url(/img/Eniac.png);
+  width: 95vw;
+  height: 43vh;
+  margin-top: 20px;
+  margin-left: 72px;
+}
+body .space {
+  height: 20vh;
+  width: 100vw;
+}
+body aside {
+  background-image: url(/img/Boole.png);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url(/variaveis/variables.scss);
+$header-title-font-size: 25px;
+$transition-title: 75px;
+$transition-subtitle: 27px;
+
+@mixin page-icon-size() {
+  width: 68px;
+  height: 68px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Share Tech", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  & main{
+  background-image: url(/img/Binarios.png);
+
+  & a {
+    border-left: white 1px solid;
+    & :hover{
+      cursor: pointer;}
+  }
+
+  & table {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 6;
+
+    & button {
+      font-size: $header-title-font-size;
+      background: none;
+      border: none;
+      padding: 0px 85px 0px 85px;
+    }
+  }
+
+  & td {
+    width: 20vw;
+    font-size: $header-title-font-size;
+  }
+
+  & img {
+    @include page-icon-size();
+    margin: 25px 15px 20px 15px;
+  }
+
+  & #imgH {
+    display: flex;
+    align-items: center;
+    font-size: $header-title-font-size;
+    border: none;
+  }
+  }
+  & h1{
+    font-size: 60px;
+    margin-left: 75px;
+  }
+  & article {
+    margin-left: 75px;
+    margin-top: 75px;
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    font-size: 42px;
+    align-items: center;
+  }
+  & .transition{
+     width: 100vw;
+     height: 100px;
+     background-color: black;
+     margin-top: 125x;
+  }
+  & #Boole{
+ 
+    width: 40vw;
+    height: 30vh;
+  
+  }
+  & #boole{
+    background-image: url(/img/Boole.svg);
+    width: 100vw;
+    height: 80vh;
+  }
+& #eniac{
+  width: 40vw;
+  height: 30vw;
+  & #Eniac{
+    background-image: url(/img/Eniac.png);
+    width: 95vw;
+    height: 43vh;
+    margin-top: 20px;
+    margin-left: 72px;
+
+  }
+}
+& .space{
+height: 20vh;
+width: 100vw;
+}
+& aside{
+  background-image: url(/img/Boole.png);
+}
+}

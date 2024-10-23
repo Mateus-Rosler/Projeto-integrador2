@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url(/variaveis/variables.scss);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Share Tech", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+body a {
+  border-left: white 1px solid;
+}
+body a :hover {
+  cursor: pointer;
+}
+body table {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 6;
+}
+body table button {
+  font-size: 25px;
+  background: none;
+  border: none;
+  padding: 0px 85px 0px 85px;
+}
+body td {
+  width: 20vw;
+  font-size: 25px;
+}
+body img {
+  width: 68px;
+  height: 68px;
+  margin: 25px 15px 20px 15px;
+}
+body #imgH {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  border: none;
+  margin-top: 7px;
+}
+body article #SBV {
+  margin-top: 50px;
+}
+body article img {
+  width: 100vw;
+  height: 65vh;
+  margin: 0;
+  padding: 0;
+}
+body article .img {
+  width: 100vw;
+  height: 80%;
+  margin-top: 55px;
+}
+body article h1 {
+  font-size: 55px;
+}
+body article p {
+  font-size: 27px;
+}
+body .final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+body footer {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  background-color: #1b1b1b;
+}
+body footer div {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+body footer div h1 {
+  font-size: 25px;
+}
+body footer div button {
+  background: none;
+  border: none;
+  border-left: white 1px solid;
+  font-size: 25px;
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */

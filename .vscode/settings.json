@@ -1,0 +1,14 @@
+{
+    "liveSassCompile.settings.useNewCompiler": true,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            // "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.showOutputWindowOn": "Warning",
+    // "liveServer.settings.CustomBrowser": "chrome"
+}
